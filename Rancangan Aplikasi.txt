@@ -1,0 +1,38 @@
+Rancangan Aplikasi Peminjaman Buku
+
+Data Base:
+
+1.Tabel Admin:
+     -Id
+     -Nama
+     -Role
+     -Nohp/wa
+     -Alamat
+  Aksi: Edit & Hapus (Hanya Admin Yang BIsa Mengelola Tabel) 
+2.Tabel Daftar Buku:
+     -id
+     -Judul Buku
+     -Nomor Buku
+     -Jenis Buku
+     -Jumlah Buku
+     -Tanggal Buku Masuk
+     -Keterangan
+  Aksi: Edit & Hapus
+3.Tabel Peminjaman:
+     -id
+     -Nama Peminjam(tampilkan)
+     -Judul Buku
+     -Nomor Buku	 
+     -Tanggal Pinjam
+     -Tanggal Kembali
+     -Keterangan(Sanksi denda berlaku jika buku mengalami kerusakan/hilang saat di pinjam)
+  Aksi: Detail
+4.Tabel Detail Peminjaman:
+     -id detail
+     -id
+     -Judul Buku
+     -Nomor Buku
+     -Tanggal Pinjam
+     -Tanggal kembali
+     -Status Peminjaman
+   Aksi: Edit & Pengembalian
